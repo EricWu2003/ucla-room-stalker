@@ -2,3 +2,4 @@ token.txt
 /logs
 /changelog
 __pycache__
+**/.DS_Store
