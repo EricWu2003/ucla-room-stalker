@@ -1,4 +1,7 @@
-token = "OTIzMjcyMjQyNzY5NTc2MDI3.YcNmSA.qeLJ82Dr_N_pJJcI_xHcSpuav1U"
+token = ""
+
+with open("token.txt", "r") as f:
+	token = f.read()
 
 channels = {
 	"hedrick":923236228906750022,
