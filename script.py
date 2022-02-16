@@ -1,7 +1,7 @@
 token = ""
 
-with open("token.txt", "r") as f:
-	token = f.read()
+#with open("token.txt", "r") as f:
+#	token = f.read()
 
 channels = {
 	"hedrick":923236228906750022,
@@ -34,6 +34,10 @@ import sys
 
 script_path = "/home/ericwu/ucla_room_stalker"
 #script_path = os.getcwd()
+
+with open(os.path.join(script_path, "token.txt"), "r") as f:
+	token = f.read()
+
 
 def get_pst_time():
 	date_format='%Y-%m-%dT%H-%M-%S'
