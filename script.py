@@ -32,7 +32,7 @@ import sys
 
 #time.sleep(60) #just to make sure the time becomes convenient
 
-script_path = "/home/ericwu/web_scraping"
+script_path = "/home/ericwu/ucla_room_stalker"
 #script_path = os.getcwd()
 
 def get_pst_time():
