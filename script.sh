@@ -1,3 +1,3 @@
 #!/bin/bash
-/usr/bin/python3 /home/ericwu/web_scraping/script.py
+/usr/bin/python3 /home/ericwu/ucla_room_stalker/script.py
 
