@@ -1,5 +1,5 @@
 token.txt
-/logs
-/changelog
+#/logs
+#/changelog
 __pycache__
 **/.DS_Store
